@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CUBEA</title>
+    <style>
+        body {
+            background: rgb(150, 212, 220);
+        }
+        #pyr>a {
+            color: rgb(19, 145, 235);
+            text-shadow: 5px 5px 5px rgb(22, 239, 37);
+            font-size: 80px;
+            font-family: SB 어그로 Medium;
+            text-decoration: none;
+            margin: 15px;
+            padding: 15px;
+        }
+        #pyr span {
+            color: grey;
+            font-family: SB 어그로 Medium;
+            font-size: 30px;
+        }
+        #pyrm { 
+            background: lightgrey;
+            font-family: SB 어그로 Medium;
+            font-size: 20px;
+        }
+        #pyrm>ul {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+        }
+        #pyrm li {
+            display: inline-flex;
+            list-style-type: none;
+            padding: 0px 15px;
+        }
+        #pyrm a {
+            color: rgb(19, 145, 235);
+            text-decoration: none;
+        }
+        #pyrm a:hover {
+            color: yellow;
+        }
+        #sj {
+            margin: 20px;
+            padding: 10px;
+        }
+        #gnmg {
+            font-family: SB 어그로 Medium;
+            font-size: 30px;
+            color: green;
+            text-shadow: 5px 5px 5px lightgrey;
+        }
+        @keyframes textcolor {
+            0% {color: red;}
+            20% {color: orange;}
+            35% {color: yellow;}
+            55% {color: green;}
+            70% {color: blue;}
+            90% {color: darkblue;}
+            100% {color: purple;}
+        }
+        #ddmg legend {
+            animation-name: textcolor;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            font-family: SB 어그로 Medium;
+            font-size: 30px;
+        }
+        #ddmg span {
+            font-size: 20px;
+            font-family: SB 어그로 Medium;
+        }
+        #mgmk>p {
+            font-family: SB 어그로 Medium;
+            font-size: 20px;
+        }
+        #mgmk span {
+            font-size: 30px;
+            color: green;
+            text-shadow: 5px 5px 5px lightgrey;
+        }
+        #mgmk strong {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="pyr">
+        <a href="#">CUBEA</a><span>큐브 쉽게 맞추기!</span>
+    </div>
+<div id="pyrm">
+    <ul>
+        <li><a href="큐브의_역사.html">큐브의 역사</a></li>
+        <li><a href="큐브의_구조.html">큐브의 구조</a></li>
+        <li><a href="큐브의_회전기호.html">큐브의 회전기호</a></li>
+        <li><a href="2x2x2_큐브_맞추기.html">2x2x2 큐브 맞추기</a></li>
+        <li><a href="3x3x3_큐브_맞추기.html">3x3x3 큐브 맞추기</a></li>
+        <li><a href="https://www.worldcubeassociation.org/" target="_blank">WCA(World Cube Association)</a></li>
+        <li><a href="https://cstimer.net" target="_blank">csTimer</a></li>
+        <li><a href="http://algdb.net/" target="_blank">AlgDb</a></li>
+    </ul>
+</div>
+<div id="sj">
+    <img src="./image/cubes-g60d0411ee_1920.png" 
+    alt="큐브 이미지"
+    width="100%">
+</div>
+<div id="gnmg" style="text-align: center;">어린 시절 누구나 한 번쯤 맞추기에 도전하는 큐브이지만 어렵다고 느끼며 포기하게 됩니다. 여기서는 큐브를 쉽게 맞추는 방법을 알려드리겠습니다.</div><br><br>
+<div id="ddmg">
+    <fieldset>
+        <legend style="text-align: center;">큐브 맞추기의 장점</legend>
+        <ul>
+            <li><span>가격이 저렴하다.</span><br>
+            큐브는 서점이나 문구점에서 2,000원~5,000원 정도에 구매가 가능합니다.</li><br>
+            <li><span>공간지각능력, 집중력 향상</span><br>
+            큐브는 입체도형이고 맞추기 위해서 생각을 많이 해보기 때문에 집중력과 공간지각 능력 향상에 좋습니다.</li><br>
+            <li><span>똑똑해 보이는 효과, 자신감 상승</span><br>
+            큐브 좀 맞춘다 하면 "우와!", "어떻게 맞춘 거야?" 등의 주변 반응으로 자신감 향상에도 도움이 됩니다.</li>
+            </ul>
+    </fieldset>
+</div>
+<br>
+<div id="mgmk">
+        <p style="text-align: center;"><span>홈페이지에 대한 간략한 설명</span><br><br>큐브 맞추기 대회도 있는데요, 위쪽에 있는 <strong>WCA(World Cube Association)</strong>를 눌러서 링크로 이동하시면 대회 정보를 접하실 수 있고 통해서 대회에 참가하실 수도 있습니다.<br><br><strong>csTimer</strong>는 큐브 맞추기 기록 측정용 초시계로, 활용하시면서 큐브를 맞추시면 기록 단축의 재미를 느낄 수 있습니다.<br><br><strong>AlgDb</strong>에는 2X2X2 큐브와 3X3X3 큐브, 그리고 스퀘어-1을 맞추는데 필요한 모든 공식이 담겨있습니다. 큐브를 좀 더 빠르게 맞추고 싶으신 분들은 참고하시면 되겠습니다.</p><br><br>
+</div>
+</body>
+</html>
