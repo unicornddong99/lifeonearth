@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>큐브의 회전기호</title>
+    <title>CUBEA</title>
     <style>
         body {
             background: rgb(150, 212, 220);
@@ -13,24 +13,24 @@
             color: rgb(19, 145, 235);
             text-shadow: 5px 5px 5px rgb(22, 239, 37);
             font-size: 80px;
-            font-family: SB 어그로 Medium;
+            font-family: 휴먼둥근헤드라인;
             text-decoration: none;
             margin: 15px;
             padding: 15px;
         }
         #pyr span {
             color: grey;
-            font-family: SB 어그로 Medium;
+            font-family: 휴먼둥근헤드라인;
             font-size: 30px;
         }
         #pyrm { 
             background: lightgrey;
-            font-family: SB 어그로 Medium;
+            font-family: 휴먼둥근헤드라인;
             font-size: 20px;
         }
         #pyrm>ul {
-            margin: 0;
-            padding: 0;
+            margin: 5px;
+            padding: 0px;
             width: 100%;
         }
         #pyrm li {
@@ -44,6 +44,33 @@
         }
         #pyrm a:hover {
             color: yellow;
+        }
+        #pgr>p {
+            font-family: 휴먼둥근헤드라인;
+            font-size: 30px;
+            color: green;
+            text-shadow: 5px 5px 5px lightgrey;
+            text-align: center;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        td {
+            border: 1px solid lightgrey;
+            padding: 10px;
+        }
+        #pgr td>p {
+            text-align: center;
+            font-family: 휴먼둥근헤드라인;
+        }
+        #pgr a {
+            text-decoration: none;
+            color: green;
+            text-shadow: 5px 5px 5px lightgrey;
+            transition: font-size 1s;
+        }
+        #pgr a:hover {
+            font-size: 200%;
         }
     </style>
 </head>
@@ -62,6 +89,37 @@
         <li><a href="https://cstimer.net" target="_blank">csTimer</a></li>
         <li><a href="http://algdb.net/" target="_blank">AlgDb</a></li>
     </ul>
+</div>
+<br>
+<div id="pgr">
+    <p>큐브의 회전 기호</p>
+    <table border="1">
+        <tbody>
+            <tr>
+                <td><img src="./image/U.png" alt="U" width="450px" height="450px"></td>
+                <td><img src="./image/U'.png" alt="U'" width="450px" height="450px"></td>
+                <td><img src="./image/D.png" alt="D" width="450px" height="450px"></td>
+                <td><img src="./image/D'.png" alt="D'" width="450px" height="450px"></td>
+            </tr>
+            <tr>
+                <td><img src="./image/F.png" alt="F" width="450px" height="450px"></td>
+                <td><img src="./image/F'.png" alt="F'" width="450px" height="450px"></td>
+                <td><img src="./image/B.png" alt="B" width="450px" height="450px"></td>
+                <td><img src="./image/B'.png" alt="B'" width="450px" height="450px"></td>
+            </tr>
+            <tr>
+                <td><img src="./image/L.png" alt="L" width="450px" height="450px"></td>
+                <td><img src="./image/L'.png" alt="L'" width="450px" height="450px"></td>
+                <td><img src="./image/R.png" alt="R" width="450px" height="450px"></td>
+                <td><img src="./image/R'.png" alt="R'" width="450px" height="450px"></td>
+            </tr>
+            <tr>
+                <td><img src="./image/M.png" alt="M" width="450px" height="450px"></td>
+                <td><img src="./image/M'.png" alt="M'" width="450px" height="450px"></td>
+                <td colspan="2"><p><a href="큐브_회전_기호_부가_설명.html" target="_blank">큐브 회전 기호 쉽게 외우기!</a> <-클릭하면 링크로 이동합니다.</p></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>
