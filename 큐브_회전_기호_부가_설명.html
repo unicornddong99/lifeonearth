@@ -8,6 +8,7 @@
     <style>
         body {
             background: rgb(150, 212, 220);
+            margin: 20px;
         }
         h1 {
             color: green;
@@ -19,12 +20,27 @@
             display: inline-block;
             margin: 20px;
         }
+        div strong>a {
+            color: aqua;
+            text-decoration: none;
+        }
+        span a{
+            color: black;
+            text-decoration: none;
+        }
+        span a:hover {
+            color: green;
+        }
+        span>strong {
+            border: 2px solid lightgrey;
+            display: inline-block;
+        }
     </style>
 </head>
 <body>
     <h1>큐브 회전 기호 쉽게 외우기!</h1>
     <hr>
-    <div id="">
+    <div>
         <p>큐브는 여섯 면으로 이루어졌고, 각 면을 <span style="background-color: white;">윗면</span>, <span style="background-color: yellow;">아랫면</span>, <span style="background-color: green; color: white;">앞면</span>, <span style="background-color: blue; color: white;">뒷면</span>, <span style="background-color: orange; color: white;">왼쪽 면</span>, <span style="background-color: red; color: white;">오른쪽 면</span>으로 지칭합니다.</p>
             <ul>
                 <li>U(Up): 윗면</li>
@@ -34,6 +50,13 @@
                 <li>L(Left): 왼쪽 면</li>
                 <li>R(Right): 오른쪽 면</li>
             </ul>
+            <img src="./image/rubiks-cube-g7c0c075eb_1280.png" alt="" width="110px" height="130px">
+            을 의미한다는 걸 아시면 이해가 되실 겁니다.<br>
+            추가로 M은 Middle로 중간을 의미하겠죠?
+            <P>그래서 U는 윗면에서 볼 때 시계방향으로 90°, U2는 180°, U'는 반시계 방향으로 90° 돌려주시면 됩니다.<br>나머지 기호들도 각 면에서 봤을 때, 맞는 방향으로 돌려주시면 됩니다.</P>
+            <p>무슨 말인지 모르셔도 회전 기호 그림을 보시면 이해가 되실겁니다.</p>
+            <p>그럼 이해하셨는지 확인할 연습문제를 내겠습니다. (큐브를 섞으실 때 흰색이 윗면, 초록색을 앞면에 놓고 섞으시면 됩니다!)</p>
+            <span><strong>F' U' L2 F B2 U2 R' B' R2 U B2 D R2 F2 D2 R2 U F2 U L2 R</strong><a href="./image/정답.jpeg" download><-정답확인!</a></span>
     </div>
 </body>
 </html>
